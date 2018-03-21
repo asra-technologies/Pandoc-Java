@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pandoc.UI.ErrorController">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20"/>
+    </padding>
+
+    <Label text="Error, Pandoc was not found" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+</GridPane>
