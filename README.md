@@ -3,6 +3,7 @@ UI wrapper around pandoc available on every platform with pandoc installed.
 
 To use simply download the jar available in the releases and open it. The ui should open if java is installed.
 
+<!--
 ## Pandoc-UI settings sample
 `MyDocuments/Asra-Notion/Pandoc-UI/settings.xml`
 
@@ -22,3 +23,4 @@ To use simply download the jar available in the releases and open it. The ui sho
   <PromptSave>true</PromptSave>
 </Settings>
 ```
+-->
